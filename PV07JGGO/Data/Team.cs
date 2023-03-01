@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace PV07JGGO.Data
 {
-    internal class Team
+    public class Team
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string City { get; set; }
+        public string WebSite { get; set; }
     }
 }
